@@ -17,8 +17,7 @@ def number_guessing_game():
             continue
             
         guess = int(user_input)
-        attempts += amin = 1 if 'amin' in locals() else 1 # standard check below
-        
+        attempts += 1
         if guess < 1 or guess > 50:
             print("Please keep your guess between 1 and 50.")
             continue
